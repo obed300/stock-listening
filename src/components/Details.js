@@ -11,7 +11,7 @@ const Details = () => {
 
   return (
     <div className={styles.details}>
-      <h1>{company.name}</h1>
+      <h1>{company?.name}</h1>
       <p className={styles.detailItem}>{`Symbol: ${company?.symbol}`}</p>
       <p className={styles.detailItem}>{`Headquaters: ${company?.headQuarter}`}</p>
       <p className={styles.detailItem}>{`Sector: ${company?.sector}`}</p>
