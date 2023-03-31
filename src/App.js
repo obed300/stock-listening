@@ -1,17 +1,18 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import {
+  BrowserRouter, Routes, Route,
+} from 'react-router-dom';
 import Details from './components/Details';
 import Home from './components/Home';
+import MainContain from './components/MainContain';
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <MainContain />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Details" element={<Details />} />
-
+        <Route path="/details/:companyId" element={<Details />} />
         <Route />
       </Routes>
     </BrowserRouter>

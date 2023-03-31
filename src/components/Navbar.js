@@ -6,10 +6,10 @@ import styles from '../style/Navbar.module.css';
 
 const Navbar = () => (
   <nav className={styles.nav}>
-    <MdOutlineArrowBackIos />
-    <form>
-      <input type="search" id="search" name="search" placeholder="Search..." />
-    </form>
+    <a href="/" className="back-button">
+      <MdOutlineArrowBackIos className="back-button" />
+    </a>
+    <h1>NASDAQ</h1>
 
     <NavLink to="/" activeClassName={styles.activeLink} className={styles.Home}>Home</NavLink>
     <NavLink to="/Details" activeClassName={styles.activeLink} className={styles.Home}>Details</NavLink>
