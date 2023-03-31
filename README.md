@@ -60,7 +60,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[live Demo](https://stocklistening.netlify.app/)
+[live Demo](https://delightful-gingersnap-a35226.netlify.app/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
