@@ -4,12 +4,12 @@ import store from '../redux/store';
 import Home from '../components/Home';
 
 describe('testing components', () => {
-    it('test Home component', () => {
-      const data = render(
-        <Provider store={store}>
-          <Home />
-        </Provider>,
-      );
-      expect(data).toMatchSnapshot();
-    });
+  it('test Home component', () => {
+    const data = render(
+      <Provider store={store}>
+        <Home />
+      </Provider>,
+    );
+    expect(data).toMatchSnapshot();
   });
+});

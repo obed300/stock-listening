@@ -4,12 +4,12 @@ import store from '../redux/store';
 import Navbar from '../components/Home';
 
 describe('testing components', () => {
-    it('test Home component', () => {
-      const data = render(
-        <Provider store={store}>
-          <Navbar />
-        </Provider>,
-      );
-      expect(data).toMatchSnapshot();
-    });
+  it('test Home component', () => {
+    const data = render(
+      <Provider store={store}>
+        <Navbar />
+      </Provider>,
+    );
+    expect(data).toMatchSnapshot();
   });
+});
