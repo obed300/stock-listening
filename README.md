@@ -50,9 +50,6 @@
 </details>
 
 
-
-
-
 ### Key Features <a name="key-features"></a>
 
 
@@ -64,7 +61,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 [live Demo](https://stocklistening.netlify.app/)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
