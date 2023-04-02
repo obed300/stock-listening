@@ -33,7 +33,7 @@
   - [📝 License ](#-license-)
 
 # 📖 [Stock_Listening_App] <a name="about-project"></a>
-**[Space_Travelers_Hub]** is a web application that displays the list of companies on the NASDAQ stock exchange and allow users to search for companies and sort the list by different criteria, such as name and symbol. Also, when the user clicks (or taps) on a category item, the application navigates to the details page.
+**[Stock Listening]** is a web application that displays the list of companies on the NASDAQ stock exchange and allow users to search for companies and sort the list by different criteria, such as name and symbol. Also, when the user clicks (or taps) on a category item, the application navigates to the details page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
